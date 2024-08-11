@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+img{
+    width: 400px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row ;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.cards>div>img{
+    height: 300px;
+    width: 350px;
+}
+.signupContainer{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
